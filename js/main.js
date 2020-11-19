@@ -1,8 +1,8 @@
- AOS.init({
+  AOS.init({
  	duration: 800,
  	easing: 'slide',
  	once: false
- });
+ }); 
 
 jQuery(document).ready(function($) {
 
@@ -211,7 +211,7 @@ jQuery(document).ready(function($) {
    	$("body").on("click", ".main-menu li a[href^='#'], .smoothscroll[href^='#'], .site-mobile-menu .site-nav-wrap li a", function(e) {
       e.preventDefault();
 
-      var hash = this.hash;
+	  var hash = this.hash;
 
       $('html, body').animate({
         'scrollTop': $(hash).offset().top
