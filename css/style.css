@@ -790,29 +790,31 @@ body:after {
   color: #fff !important;
 }
 .sticky-wrapper.is-sticky .site-navbar {
-  background: #fff;
+  background: ;
   border-bottom: 1px solid transparent;
-  -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
-  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0);
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0);
+  opacity: 0.5;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu-toggle {
-  color: #000;
+  color: #fff;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-logo {
   font-size: 1.5rem;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-  border: 4px solid #000;
+  border: 4px solid #fff;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-  color: #000;
+  color: #fff;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
-  color: #000 !important;
+  color: #fff !important;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-  color: #f205e2 !important;
+  color: #f205e2
+  opacity: 1;
 }
 .sticky-wrapper .shrink {
   padding-top: 10px !important;
