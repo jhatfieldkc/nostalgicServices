@@ -790,7 +790,6 @@ body:after {
   color: #fff !important;
 }
 .sticky-wrapper.is-sticky .site-navbar {
-  background: ;
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0);
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0);
@@ -813,8 +812,7 @@ body:after {
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-  color: #f205e2
-  opacity: 1;
+  color: #f205e2 !important;
 }
 .sticky-wrapper .shrink {
   padding-top: 10px !important;
